@@ -16,4 +16,4 @@ Redux를 단순히 좋다, 많이 사용한다의 이유를 넘어선 '왜 사�
 
 ### 정리문서
 
-https://www.notion.so/4ce2fc58f4264db1ad573da40bf7225f
+https://periwinkle-spade-c8b.notion.site/eb770580cee9408b8b2ca1a4ae22d0bd?v=be69971e6cd647809d462d7efc5a6958
