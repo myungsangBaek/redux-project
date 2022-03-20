@@ -13,3 +13,7 @@ Redux를 단순히 좋다, 많이 사용한다의 이유를 넘어선 '왜 사�
 3. Node.js
 4. Redux
 5. React-Redux
+
+### 정리문서
+
+https://www.notion.so/4ce2fc58f4264db1ad573da40bf7225f
