@@ -1,0 +1,36 @@
+import { createStore } from "redux";
+
+const add = document.getElementById("add");
+const minus = document.getElementById("minus");
+const number = document.querySelector("span");
+
+const reducer = (state = 0, action) => {
+  if (action.type === "ADD") {
+    return state + 1;
+  } else if (action.type === "MINUS") {
+    return state - 1;
+  } else {
+    return state;
+  }
+};
+
+const store = createStore(reducer);
+
+//subscribe추가 부분
+const onChange = () => {
+  number.innerText = store.getState();
+};
+
+store.subscribe(onChange); // 구독
+
+const handleAdd = () => {
+  store.dispatch({ type: "ADD" });
+};
+
+const handleMinus = () => {
+  store.dispatch({ type: "MINUS" });
+};
+
+add.addEventListner("click", () => handleAdd);
+
+minus.addEventListner("click", () => handleMinus);
