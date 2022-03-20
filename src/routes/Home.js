@@ -8,6 +8,7 @@ function Home() {
 
   function onSubmit(e) {
     e.preventDefault();
+    setText(e.target.value);
   }
   return (
     <>
